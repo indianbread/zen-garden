@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Medula+One|Montserrat&display=swap');
+
+:root {
+  --light-cream: rgba(185, 175, 176, 1);
+  --dark-grey: rgba(77, 81, 95, 1);
+  --light-pink: rgba(250, 213, 198, 1);
+  --dark-brown: rgba(35, 40, 50, 1);
+  --grey-pink: rgba(152, 144, 148, 1);
+}
+  
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: var(--light-cream);
+  background-color: var(--dark-brown);
+  margin: 0; 
+  padding: 0;
+  width: 100vw;
+  height: 150vh;
+}
+
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 30% 40% 30%;
+}
+
+.intro {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  display:flex;
+ flex-direction: column;
+ padding-bottom: 5px;
+ padding-left: 5px;
+ padding-right: 5px;
+ }
+
+[role="banner"] {
+ 
+background-image: url(./zen-garden/assetts/puddle1.jpg), linear-gradient(rgba(255,0,0,0.3), rgba(255,0,0,0.2));;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.summary{
+align-self: center;
+}
+
+.preamble {
+  max-width: 25%;
+
+}
+
+.main {
+  grid-row: 2/4;
+  grid-column: 2/3;
+  padding: 5px;
+}
+
+.sidebar {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  padding: 5px;
+}
+
+
+h1 {
+  font-style: bold;
+  font-family: 'Medula One', cursive;
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #ffffff00;
+}
+
+h2 {
+  font-style: italic;
+  font-family: 'Medula One', cursive;
+
+}
+
+h3 {
+  font-style: bold;
+  font-family: 'Medula One', cursive;
+  color: var(--grey-pink);
+  letter-spacing: 3px;
+  font-size: 25px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-pink);
+}
+
+a:hover {
+  text-transform: scale(1.3);
+  color: var(--grey-pink);
+}
+
+
+
+
