@@ -42,7 +42,7 @@ body {
 
 [role="banner"] {
  
-background-image: url(./zen-garden/assetts/puddle1.jpg), linear-gradient(rgba(255,0,0,0.3), rgba(255,0,0,0.2));;
+background-image: url(./assetts/puddle1.jpg), linear-gradient(rgba(255,0,0,0.3), rgba(255,0,0,0.2));;
 background-repeat: no-repeat;
 background-size: cover;
 }
